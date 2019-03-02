@@ -1,0 +1,37 @@
+.wrap {
+	font-size: 0;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+label {
+	display: inline-block;
+	width: 20%;
+	height: 100vh;
+	background-size: cover;
+}
+
+input[type="radio"]:checked + label {
+	width: 60%;
+}
+
+label[for="photo1"] {
+	background: url("../../img/logan-lambert-1389466-unsplash.jpg");
+	background-size: cover;
+	transition: 0.2s;
+}
+
+label[for="photo2"] {
+	background: url("../../img/david-brooke-martin-1389679-unsplash.jpg");
+	background-size: cover;
+	transition: 0.2s;
+}
+
+label[for="photo3"] {
+	background: url("../../img/logan-lambert-1389454-unsplash.jpg");
+	background-position: 60% 50%;
+	background-size: cover;
+	transition: 0.2s;
+}
